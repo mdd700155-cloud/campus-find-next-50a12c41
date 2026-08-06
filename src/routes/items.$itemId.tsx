@@ -131,7 +131,7 @@ function ItemDetails() {
                 <span className="grid size-11 shrink-0 place-items-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
                   {item.contactName
                     .split(" ")
-                    .map((part) => part[0])
+                    .map((part: string) => part[0])
                     .slice(0, 2)
                     .join("")}
                 </span>
