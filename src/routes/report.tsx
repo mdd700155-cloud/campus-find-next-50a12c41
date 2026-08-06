@@ -38,7 +38,7 @@ export const Route = createFileRoute("/report")({
       },
     ],
   }),
-  component: Report;
+  component: Report,
 });
 
 function Section({
