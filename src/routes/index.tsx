@@ -112,8 +112,7 @@ function Landing() {
                 <span className="text-gradient-brand">We'll help you find it.</span>
               </h1>
               <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground">
-                CampusFind is the shared lost &amp; found board for your college. Report what's
-                missing, browse what's been handed in, and get it back before the week is out.
+                {"\n"}
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button asChild size="lg" className="h-12 rounded-full px-7 text-base shadow-glow">
